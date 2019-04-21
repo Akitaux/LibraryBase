@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../LibraryBase.targets" />
+  <PropertyGroup>
+    <Description>Shared types and models across all Akitaux.LibraryBase projects</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Akitaux.LibraryBase</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RestEase" Version="1.4.5" />
+    <PackageReference Include="Voltaic.Serialization.Json" Version="0.2.1-build-00011" />
+  </ItemGroup>
+</Project>

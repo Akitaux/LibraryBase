@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../LibraryBase.targets" />
+  <PropertyGroup>
+    <Description>Structure for implementing the LibraryBase REST apis</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Akitaux.LibraryBase.Rest</AssemblyName>
+    <RootNamespace>Akitaux.LibraryBase.Rest</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Akitaux.LibraryBase.Core\Akitaux.LibraryBase.Core.csproj" />
+  </ItemGroup>
+</Project>
